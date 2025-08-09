@@ -34,53 +34,7 @@ function HeaderOne() {
         <>
             {/*============================== Header Area ==============================*/}
             <header className="th-header header-layout1">
-                <div className="header-top">
-                    <div className="container th-container">
-                        <div className="row justify-content-center justify-content-xl-between align-items-center">
-                            <div className="col-auto d-none d-md-block">
-                                <div className="header-links">
-                                    <ul>
-                                        <li className="d-none d-xl-inline-block">
-                                            <i className="fa-sharp fa-regular  fa-location-dot" />
-                                            <span>45 New Eskaton Road, Austria</span>
-                                        </li>
-                                        <li className="d-none d-xl-inline-block">
-                                            <i className="fa-regular fa-clock" />
-                                            <span>Sun to Friday: 8.00 am - 7.00 pm</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-auto">
-                                <div className="header-right">
-                                    <div className="currency-menu">
-                                        <NiceSelect options={languageOptions} defaultValue="Language" />
-                                    </div>
-
-                                    <div className="header-links">
-                                        <ul>
-                                            <li className="d-none d-md-inline-block">
-                                                <Link to="/faq">FAQ</Link>
-                                            </li>
-                                            <li className="d-none d-md-inline-block">
-                                                <Link to="/contact">Support</Link>
-                                            </li>
-                                            <li>
-                                                <button
-                                                    type="button"
-                                                    onClick={() => setIsLoginFormOpen(true)}
-                                                >
-                                                    Sign In / Register
-                                                    <i className="fa-regular fa-user" />
-                                                </button>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            
                 <div className={`sticky-wrapper ${isSticky ? "sticky" : ""}`}>
                     {/* Main Menu Area */}
                     <div className="menu-area">
@@ -89,11 +43,11 @@ function HeaderOne() {
                                 <div className="col-auto">
                                     <div className="header-logo">
                                         <Link to="/">
-                                            <img src="/assets/img/logo.svg" alt="Tourm" />
+                                            <img src="/assets/img/logo-white2.png"  style={{ width: "100px", marginLeft:"5%" }} alt="Tourm" />
                                         </Link>
                                     </div>
                                 </div>
-                                <div className="col-auto me-xl-auto">
+                                <div className="col-auto ">
                                     <nav className="main-menu d-none d-xl-inline-block">
                                         <ul>
                                             <li className="menu-item-has-children mega-menu-wrap">
@@ -104,7 +58,7 @@ function HeaderOne() {
                                                     <li>
                                                         <div className="container">
                                                             <div className="row gy-4">
-                                                                <div className="col-lg-3">
+                                                                <div className="col-lg-4">
                                                                     <div className="mega-menu-box">
                                                                         <div className="mega-menu-img">
                                                                             <img
@@ -128,7 +82,7 @@ function HeaderOne() {
                                                                         </h3>
                                                                     </div>
                                                                 </div>
-                                                                <div className="col-lg-3">
+                                                                <div className="col-lg-4">
                                                                     <div className="mega-menu-box">
                                                                         <div className="mega-menu-img">
                                                                             <img
@@ -146,12 +100,12 @@ function HeaderOne() {
                                                                         </div>
                                                                         <h3 className="mega-menu-title">
                                                                             <Link to="/home-tour">
-                                                                                <span>02.</span>Home Tour
+                                                                                <span>02.</span>All Services
                                                                             </Link>
                                                                         </h3>
                                                                     </div>
                                                                 </div>
-                                                                <div className="col-lg-3">
+                                                                <div className="col-lg-4">
                                                                     <div className="mega-menu-box">
                                                                         <div className="mega-menu-img">
                                                                             <img
@@ -170,35 +124,12 @@ function HeaderOne() {
                                                                         </div>
                                                                         <h3 className="mega-menu-title">
                                                                             <Link to="/home-agency">
-                                                                                <span>03.</span>Home Agency
+                                                                                <span>03.</span>Testimonial
                                                                             </Link>
                                                                         </h3>
                                                                     </div>
                                                                 </div>
-                                                                <div className="col-lg-3">
-                                                                    <div className="mega-menu-box">
-                                                                        <div className="mega-menu-img">
-                                                                            <img
-                                                                                src="/assets/img/pages/home-yacht.jpg"
-                                                                                alt="Home Four"
-                                                                            />
-                                                                            <div className="btn-wrap">
-                                                                                <Link
-
-                                                                                    to="/home-yacht"
-                                                                                    className="th-btn "
-                                                                                >
-                                                                                    View Demo
-                                                                                </Link>
-                                                                            </div>
-                                                                        </div>
-                                                                        <h3 className="mega-menu-title">
-                                                                            <Link to="/home-yacht">
-                                                                                <span>04.</span>Home Yacht
-                                                                            </Link>
-                                                                        </h3>
-                                                                    </div>
-                                                                </div>
+                                                               
                                                             </div>
                                                         </div>
                                                     </li>
@@ -208,10 +139,10 @@ function HeaderOne() {
                                                 <Link to="/about">About Us</Link>
                                             </li>
                                             <li className="menu-item-has-children">
-                                                <Link to="#">Destination</Link>
+                                                <Link to="#">Holiday Packages</Link>
                                                 <ul className="sub-menu">
                                                     <li>
-                                                        <Link to="/destination">Destination</Link>
+                                                        <Link to="/destination">Holiday </Link>
                                                     </li>
                                                     <li>
                                                         <Link to="/destination/1">
@@ -221,7 +152,7 @@ function HeaderOne() {
                                                 </ul>
                                             </li>
                                             <li className="menu-item-has-children">
-                                                <Link to="#">Service</Link>
+                                                <Link to="#">Global Visa</Link>
                                                 <ul className="sub-menu">
                                                     <li>
                                                         <Link to="/service">Services</Link>
@@ -231,88 +162,8 @@ function HeaderOne() {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className="menu-item-has-children">
-                                                <Link to="#">Activities</Link>
-                                                <ul className="sub-menu">
-                                                    <li>
-                                                        <Link to="/activities">activities</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/activities-details">activities Details</Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li className="menu-item-has-children">
-                                                <Link to="#">Pages</Link>
-                                                <ul className="sub-menu">
-                                                    <li className="menu-item-has-children">
-                                                        <Link to="#">Shop</Link>
-                                                        <ul className="sub-menu">
-                                                            <li>
-                                                                <Link to="/shop">Shop</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link to="/shop/1">Shop Details</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link to="/cart">Cart Page</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link to="/checkout">Checkout</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link to="/wishlist">Wishlist</Link>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/gallery">Gallery</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour">Our Tour</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour-details">Tour Details</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/resort">Resort page</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/resort/1">Resort Details</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour-details">Tour Details</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour-guide">Tour Guider</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour-guide/1">
-                                                            Tour Guider Details
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/faq">Faq Page</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/price">Price Package</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/error">Error Page</Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li className="menu-item-has-children">
-                                                <Link to="#">Blog</Link>
-                                                <ul className="sub-menu">
-                                                    <li>
-                                                        <Link to="/blog">Blog</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/blog/1">Blog Details</Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
+                                           
+                                           
                                             <li>
                                                 <Link to="/contact">Contact us</Link>
                                             </li>
