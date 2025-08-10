@@ -27,7 +27,7 @@ function HomeOne() {
             <TourOne />
             <GalleryOne />
             <CounterOne />
-            <TourGuide />
+           
             <TestimonialOne />
             <BrandOne className="space-bottom"/>
             <BlogOne />

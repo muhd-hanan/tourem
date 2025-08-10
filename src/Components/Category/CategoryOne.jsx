@@ -78,8 +78,8 @@ const CategoryOne = () => {
     >
       <div className="container th-container">
         <div className="title-area text-center">
-          <span className="sub-title">Wonderful Place For You</span>
-          <h2 className="sec-title">Tour Categories</h2>
+          {/* <span className="sub-title">Wonderful Place For You</span> */}
+          <h2 className="sec-title">Global Visa</h2>
         </div>
 
         <Swiper

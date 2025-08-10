@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 const CounterOne = () => {
     const counters = [
         { value: 12, suffix: "", title: "Years Experience" },
-        { value: 97, suffix: "%", title: "Retention Rate" },
+        { value: 97, suffix: "%", title: "Visa Approval Rate" },
         { value: 8, suffix: "k", title: "Tour Completed" },
         { value: 19, suffix: "k", title: "Happy Travellers" }
     ];

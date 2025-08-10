@@ -73,13 +73,13 @@ function BannerOne() {
                             </div>
                             <div className="container">
                                 <div className="hero-style1">
-                                    <span
-                                        className="sub-title   style1"
-                                        data-ani="slideinup"
-                                        data-ani-delay="0.2s"
-                                    >
-                                        Get unforgetable pleasure with us
-                                    </span>
+                                        {/* <span
+                                            className="sub-title   style1"
+                                            data-ani="slideinup"
+                                            data-ani-delay="0.2s"
+                                        >
+                                            Get unforgetable pleasure with us
+                                        </span> */}
                                     <h1
                                         className="hero-title"
                                         data-ani="slideinup"
