@@ -41,9 +41,9 @@ function HeaderOne() {
                         <div className="container th-container">
                             <div className="row align-items-center justify-content-between">
                                 <div className="col-auto">
-                                    <div className="header-logo">
+                                    <div className="header-logo"    >
                                         <Link to="/">
-                                            <img src="/assets/img/logo-white2.png"  style={{ width: "100px", marginLeft:"5%" }} alt="Tourm" />
+                                            <img src="/assets/img/visto-white-logo png.png"  style={{ width: "100px", marginLeft:"40%" }} alt="Tourm" />
                                         </Link>
                                     </div>
                                 </div>
@@ -55,7 +55,7 @@ function HeaderOne() {
                                                     Home
                                                 </Link>
                                                 <ul className="mega-menu mega-menu-content">
-                                                    <li>
+                                                    <li>    
                                                         <div className="container">
                                                             <div className="row gy-4">
                                                                 <div className="col-lg-4">
@@ -138,30 +138,15 @@ function HeaderOne() {
                                             <li>
                                                 <Link to="/about">About Us</Link>
                                             </li>
-                                            <li className="menu-item-has-children">
-                                                <Link to="#">Holiday Packages</Link>
-                                                <ul className="sub-menu">
-                                                    <li>
-                                                        <Link to="/destination">Holiday </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/destination/1">
-                                                            Destination Details
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li className="menu-item-has-children">
+
+                                             <li className="">
                                                 <Link to="#">Global Visa</Link>
-                                                <ul className="sub-menu">
-                                                    <li>
-                                                        <Link to="/service">Services</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/service/1">Service Details</Link>
-                                                    </li>
-                                                </ul>
+                                            
                                             </li>
+                                            <li className="">
+                                                <Link to="#">Holiday Packages</Link>
+                                            </li>
+                                           
                                            
                                            
                                             <li>

@@ -64,7 +64,7 @@ function BannerOne() {
                             <div
                                 className="th-hero-bg"
                                 style={{
-                                    backgroundImage: "url(/assets/img/hero/hero_bg_1_1.jpg)",
+                                    backgroundImage: "url(/assets/img/hero/Hero-section0-1.png)",
                                     backgroundRepeat: "no-repeat",
                                     backgroundSize: "cover",
                                 }}
@@ -74,7 +74,7 @@ function BannerOne() {
                             <div className="container">
                                 <div className="hero-style1">
                                     <span
-                                        className="sub-title style1"
+                                        className="sub-title   style1"
                                         data-ani="slideinup"
                                         data-ani-delay="0.2s"
                                     >
@@ -84,8 +84,9 @@ function BannerOne() {
                                         className="hero-title"
                                         data-ani="slideinup"
                                         data-ani-delay="0.4s"
+                                       
                                     >
-                                        Natural Wonder of the world{" "}
+                                       Your Trusted Partner for Global Visa Assistance & Travel Arrangements{" "}
                                     </h1>
                                     <div
                                         className="btn-group"
@@ -108,7 +109,7 @@ function BannerOne() {
                             <div
                                 className="th-hero-bg"
                                 style={{
-                                    backgroundImage: "url(/assets/img/hero/hero_bg_1_2.jpg)", 
+                                    backgroundImage: "url(/assets/img/hero/Hero-section0-2.png)", 
                                     backgroundRepeat: "no-repeat",
                                     backgroundSize: "cover",
                                 }}
@@ -150,7 +151,7 @@ function BannerOne() {
                             <div
                                 className="th-hero-bg"
                                 style={{
-                                    backgroundImage: "url(/assets/img/hero/hero_bg_1_3.jpg)",
+                                    backgroundImage: "url(/assets/img/hero/Hero-section0-3.png)",
                                     backgroundRepeat: "no-repeat",
                                     backgroundSize: "cover",
                                 }}

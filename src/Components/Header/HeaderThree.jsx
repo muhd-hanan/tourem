@@ -132,28 +132,15 @@ function HeaderThree() {
                                             <li>
                                                 <Link to="/about">About Us</Link>
                                             </li>
-                                            <li className="menu-item-has-children">
-                                                <Link to="#">Holiday Packages</Link>
-                                                <ul className="sub-menu">
-                                                    <li>
-                                                        <Link to="/destination">Destination</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/destination/1">Destination Details</Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li className="menu-item-has-children">
+                                            <li className="">
                                                 <Link to="#">Global Visa</Link>
-                                                <ul className="sub-menu">
-                                                    <li>
-                                                        <Link to="/service">Services</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/service/1">Service Details</Link>
-                                                    </li>
-                                                </ul>
+                                               
                                             </li>
+                                            <li className="">
+                                                <Link to="#">Holiday Packages</Link>
+                                               
+                                            </li>
+                                            
                                              <li>
                                                 <Link to="/contact">Contact us</Link>
                                             </li>
